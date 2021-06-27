@@ -1,0 +1,753 @@
+/*******MY HEADER CSS*************************************/
+
+.headerContainer {
+    display: flex; /*******HW 18 addition or edit********/
+    flex-direction: row; /*******HW 18 addition or edit********/
+    justify-content: space-between; /*******HW 18 addition or edit********/
+    align-items: flex-start; /*******HW 18 addition or edit********/
+    width: auto;
+    max-width: 1583px;
+    background-size: 100%;
+    background-repeat: repeat;
+    height: 223px;
+    background-color: #FFFDF8;
+    z-index: 100;
+    margin-bottom: 10px;
+}
+
+.searchBar {
+    margin-right: -800px;
+    background-color: #FFFDF8;
+    
+}
+  
+.searchBar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    stroke: black;
+    stroke-width: 5px;
+    border-radius: 20px;
+}
+
+                    /*****NAV BAR INTERACTION ****/
+
+                    /* Dropdown Button */
+                    .dropbtnABOUT {
+                        background-color: #FFFDF8;
+                        color: black;
+                        padding: 16px;
+                        font-size: 16px;
+                        border: none;
+                        cursor: pointer;
+                    }
+                    
+                    /* Dropdown button on hover & focus */
+                    .dropbtnABOUT:hover, .dropbtnABOUT:focus {
+                        background-color: #FFFDF8;
+                    }
+                    
+                    /* The container <div> - needed to position the dropdown content */
+                    .dropdownABOUT {
+                        position: relative;
+                        display: inline-block;
+                    }
+                    
+                    /* Dropdown Content (Hidden by Default) */
+                    .dropdown-contentABOUT {
+                        display: none;
+                        position: absolute;
+                        margin-top: -12px;
+                        background-color: #FFFDF8;
+                        min-width: 160px;
+                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                        z-index: 1;
+                    }
+                    
+                    /* Links inside the dropdown */
+                    .dropdown-contentABOUT a {
+                        color: black;
+                        padding: 12px 16px;
+                        text-decoration: none;
+                        display: block;
+                        font-family: Arial, Helvetica, sans-serif;
+                        margin-bottom: 1em; 
+                    }
+                    
+                    /* Change color of dropdown links on hover */
+                    .dropdown-contentABOUT a:hover {background-color: #A5C485}
+                    
+                    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+                    .showABOUT {display:block;}
+
+                        /*****^^^NAV BAR INTERACTION ****/
+
+                                /*****NAV BAR HR INTERACTION ****/
+
+                            /* Dropdown Button */
+                            .dropbtnHR {
+                                background-color: #FFFDF8;
+                                color: Black;
+                                padding: 16px;
+                                font-size: 16px;
+                                border: none;
+                                cursor: pointer;
+                            }
+                            
+                            /* Dropdown button on hover & focus */
+                            .dropbtnHR:hover, .dropbtnHR:focus {
+                                background-color: #FFFDF8;
+                            }
+                            
+                            /* The container <div> - needed to position the dropdown content */
+                            .dropdownHR {
+                                position: relative;
+                                display: inline-block;
+                            }
+                            
+                            /* Dropdown Content (Hidden by Default) */
+                            .dropdown-contentHR {
+                                display: none;
+                                position: absolute;
+                                margin-top: -12px;
+                                background-color: #FFFDF8;
+                                min-width: 160px;
+                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                z-index: 1;
+                            }
+                            
+                            /* Links inside the dropdown */
+                            .dropdown-contentHR a {
+                                color: black;
+                                padding: 12px 16px;
+                                text-decoration: none;
+                                display: block;
+                                font-family: Arial, Helvetica, sans-serif;
+                                margin-bottom: 1em; 
+                            }
+                            
+                            /* Change color of dropdown links on hover */
+                            .dropdown-contentHR a:hover {background-color: #A5C485}
+                            
+                            /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+                            .showHR {display:block;}
+
+                                /*****^^^NAV BAR INTERACTION ****/
+
+
+                                /*****NAV BAR NE INTERACTION ****/
+
+                                /* Dropdown Button */
+                                .dropbtnNE {
+                                    background-color: #FFFDF8;
+                                    color: Black;
+                                    padding: 16px;
+                                    font-size: 16px;
+                                    border: none;
+                                    cursor: pointer;
+                                    
+                                }
+                                
+                                /* Dropdown button on hover & focus */
+                                .dropbtnNE:hover, .dropbtnNE:focus {
+                                    background-color: #FFFDF8;
+                                }
+                                
+                                /* The container <div> - needed to position the dropdown content */
+                                .dropdownNE {
+                                    position: relative;
+                                    display: inline-block;
+                                }
+                                
+                                /* Dropdown Content (Hidden by Default) */
+                                .dropdown-contentNE {
+                                    display: none;
+                                    position: absolute;
+                                    margin-top: -12px;
+                                    background-color: #FFFDF8;
+                                    min-width: 160px;
+                                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                                    z-index: 1;
+                                    
+                                }
+                                
+                                /* Links inside the dropdown */
+                                .dropdown-contentNE a {
+                                    color: black;
+                                    padding: 12px 16px;
+                                    text-decoration: none;
+                                    display: block;
+                                    font-family: Arial, Helvetica, sans-serif; 
+                                    margin-bottom: 1em;
+                                }
+                    
+                                /* Change color of dropdown links on hover */
+                                .dropdown-contentNE a:hover {background-color: #A5C485}
+                                
+                                /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+                                .showNE {display:block;}
+
+                                    /*****^^^NAV BAR INTERACTION ****/
+
+
+.navBar {
+    background-color: #FFFDF8;
+    margin-right: 300px;
+    margin-top: 150px;
+}
+
+.navButtons{
+    background-color: #FFFDF8;
+}
+
+.navButtons ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+
+.navButtons ul li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #FFFDF8;
+    padding: 20px;
+    
+}
+
+.donateBOX {
+    
+    margin-right:-1910px;
+    margin-bottom: 10px;
+    justify-content: right;
+    box-shadow: 5px 15px 15px #888888;
+    width: 198px;
+    height: 200px;
+    background-color: #FF8F42;
+    z-index:101;
+}
+
+.DONATEtext h1{
+    text-align: center;
+    margin-top: 85px; /*******HW 18 addition or edit********/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+/*********MY HERO SECTION *************************************/
+
+.heroSection{ /*******HW 18 addition or edit********/
+    display: grid;
+    min-height: 905px;
+    margin-top:-25px;
+    grid-template-rows: 80%fr 1% 19%;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "heroIMG"
+    "textPlay"
+    "missionText"
+
+  }
+
+#heroIMG {
+    grid-area: heroIMG;
+    background-image: url("../images/HERO.png");
+    max-width: 1583px;
+  
+  }
+
+  .heroGridArea {
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+      
+  }
+
+.textPlay {
+    grid-area: textPlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 50%; /* <<< made transforming and lives one home at a time closer veritcally */
+    margin-top: 200px;
+    
+}
+
+.textPlay h1 {
+    font-size: 100px;
+    color: #4FD1D9;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    
+}
+
+.textPlay p{
+    font-size: 100px;;
+    color: #4E5141;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -45px;
+    /**margin-left: 500px;**/
+    text-align: center;
+    
+}   
+
+.textPlay button {
+    margin-top:100px;
+    margin-bottom: 150px;
+    background-color: #4E5141;
+    color: white;
+    width: 250px;
+    height: 250px;
+    opacity: 0.5;
+    border-radius: 200px;
+    
+
+}
+
+/*******MY MISSION SECTION CSS ******************************/
+
+.missionText {
+    grid-area: missionText;/*******HW 18 addition or edit********/
+    background-color: #535353;
+    margin-top: -20px;
+    max-width: 1583px;;
+    max-height: 400px;
+}
+.missionText p{
+    font-size: 30px;
+    color: #FFF7E3;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    background-color: #535353;
+    border: 50px solid #535353;; 
+}
+
+
+/******RAMP IMAGE ******************************/
+
+.ramps {    /*******HW 18 addition or edit********/
+    display: grid; /*******HW 18 addition or edit********/
+    height: 70vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "rampIMAGE"
+}
+
+.rampIMAGE { 
+    grid-area: rampIMAGE;
+    background-image: url("../images/RAMP.png");
+    background-size: contain;
+    max-width: 1583px;;
+    background-repeat: no-repeat;
+}
+
+
+
+/******MY CAROUSEL CSS ******************************/
+.ourStories {
+    font-size: 50px;
+    color: #4FD1D9;
+    text-align: center;
+}
+
+.testimonyPhoto {
+    justify-content: space-around;
+}
+
+.testimonyText1 h1{
+    text-align: center;
+    font-size: 40px;
+    color: black
+}
+
+.spacer {
+width: 1583px;
+height: 10px;
+}
+
+.testimonyText1 p{
+    text-align: center;
+    line-height: 3pt;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonyText2 p{
+    text-align: center;
+    line-height: 3pt;
+    font-size: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/******MY MAP SECTION******************************/
+
+
+#mapGrid {
+    
+    display: grid;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 1fr;
+    grid-template-columns: 75% 25%fr;
+    grid-template-areas: 
+    "interactiveMAP" "cityBOX"
+  }
+  
+  #interactiveMAP {
+  grid-area: interactiveMAP;
+  max-width: 1583px;
+  background-image: url("../images/MAP.png");
+  }
+  
+  .mapGridArea {
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    position: relative;
+  }
+  
+  #cityBOX {
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 2px 2px gray;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+    max-width: 550px;
+    z-index: 100;
+    
+  } 
+
+  #cityBOX h3 {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #C3D8C8;
+      border: 35px solid #C3D8C8;
+  }
+
+  #cityBOX p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+
+/******MY FOOTER CSS******************************/
+
+.footer {
+    max-width: 1583px;;
+}
+
+.Address {
+    float: left;
+    background-color: #FFFDF8;
+}
+
+.Address p{
+    background-color: #FFFDF8;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter; 
+}
+
+
+.accessICON {
+    display: grid;
+    margin-right: 250px;
+    justify-content: center;
+}
+
+.followIcons {
+    float: right;
+    margin-top: -100px;
+}
+
+.spacer2 {
+    width: 1583px;
+    height: 10px;
+    }
+
+
+.footerNAV {
+    display: grid;
+    margin-top: 5px;
+    margin-left: -100px;
+    justify-content: center;
+    background-color: #FFFDF8;
+}
+
+.footerNAV ul li a{
+    color:black;
+}
+
+
+.footerNAV ul li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #FFFDF8;
+    padding: 10px;
+}
+
+@media only screen and (max-width:1000px){
+    .headerContainer {
+        height: 300px;
+    }
+    .searchBar {
+        margin-left: -600px;
+        background-color: #FFFDF8;
+        
+    }
+      
+    .searchBar input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        font-size: 17px;
+        stroke: black;
+        stroke-width: 5px;
+        border-radius: 20px;
+    }
+    
+    .navBar {
+        background-color: #FFFDF8;
+        margin-top: 225px;
+        margin-bottom: 100px;
+    }
+    .navButtons{
+        background-color: #FFFDF8;
+    }
+    
+    .navButtons ul li a{
+        color:black;
+        text-decoration: none;
+    }
+    
+    
+    .navButtons ul li{
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif; 
+        background-color: #FFFDF8;
+        padding: 10px;
+        
+    }
+    
+    .donateBOX {
+        margin-top: -35px; 
+        margin-left: 100px;
+        margin-bottom: 50px;
+        justify-content: right;
+        box-shadow: 5px 15px 15px #888888;
+        width: 198px;
+        height: 155px;
+        background-color: #FF8F42;
+    }
+    
+    .DONATEtext h1{
+        text-align: center;
+        margin-top: 75px; /*******HW 18 addition or edit********/
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    
+
+
+@media only screen and (max-width:600px){
+    .headerContainer {
+        display: flex; /*******HW 18 addition or edit********/
+        flex-direction: column; /*******HW 18 addition or edit********/
+        justify-content: center; /*******HW 18 addition or edit********/
+        align-items: center; /*******HW 18 addition or edit********/
+        width: auto;
+        max-width: 1000px;
+        background-size: 100%;
+        background-repeat: repeat;
+        height: auto;
+        background-color: #FFFDF8;
+    }
+
+    .LogoLeft {
+        justify-content: center;
+    }
+    .searchBar {
+        justify-content: center;
+        margin-left:-785px;
+        background-color: #FFFDF8;
+        
+    }
+      
+    .searchBar input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 10px;
+        font-size: 17px;
+        stroke: black;
+        stroke-width: 5px;
+        border-radius: 20px;
+    }
+    
+    .navBar {
+        background-color: #FFFDF8;
+        justify-content: center;
+        align-items: center;
+        margin-top:-50px;
+    }
+    .navButtons{
+        background-color: #FFFDF8;
+    }
+    
+    .navButtons ul li a{
+        justify-content: center;
+        color:black;
+        text-decoration: none;
+    }
+    
+    
+    .navButtons ul li{
+        font-family: Arial, Helvetica, sans-serif; 
+        background-color: #FFFDF8;
+        padding: 10px;
+        
+    }
+    
+    .donateBOX {
+        margin-top: 50px; 
+        justify-content: center;
+        margin-left: -1450px;
+        margin-bottom: 100px;
+        box-shadow: 5px 15px 15px #888888;
+        width: 198px;
+        height: 155px;
+        background-color: #FF8F42;
+    }
+    
+    .DONATEtext h1{
+        text-align: center;
+        margin-top: 75px; /*******HW 18 addition or edit********/
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+/************************CAROUSEL SECTION***************/
+    .ourStories {
+        font-size: 50px;
+        margin-top: -400px;
+        color: #4FD1D9;
+        text-align: center;
+    }
+    
+    .testimonyPhoto {
+        justify-content: space-around;
+    }
+    
+    .testimonyText1 h1{
+        text-align: center;
+        font-size: 40px;
+        color: black
+    }
+    
+    .spacer {
+    width: 1583px;
+    height: 10px;
+    }
+    
+    .testimonyText1 p{
+        text-align: center;
+        line-height: 3pt;
+        font-size: 15px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .testimonyText2 p{
+        text-align: center;
+        line-height: 3pt;
+        font-size: 15px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /******MY FOOTER CSS******************************/
+
+.footer {
+    max-width: 1583px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Address {
+    float: left;
+    background-color: #FFFDF8;
+}
+
+.Address p{
+    background-color: #FFFDF8;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter; 
+}
+
+
+.accessICON {
+    display: grid;
+    margin-right: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.followIcons {
+    
+    margin-top: 0px;
+}
+
+.spacer2 {
+    width: 1583px;
+    height: 10px;
+    }
+
+
+.footerNAV {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    
+    justify-content: center;
+    background-color: #FFFDF8;
+}
+
+.footerNAV ul li a{
+    color:black;
+}
+
+
+.footerNAV ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #FFFDF8;
+    padding: 10px;
+}
+
+    
+
+}
+}
